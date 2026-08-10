@@ -1,0 +1,9 @@
+{
+  "name": "climate-ai-deploy",
+  "version": "1.0.0",
+  "description": "Root package.json to force Render to detect Node.js and route commands to the backend",
+  "scripts": {
+    "postinstall": "cd climateguard-ai/backend && npm install",
+    "start": "cd climateguard-ai/backend && npm start"
+  }
+}
