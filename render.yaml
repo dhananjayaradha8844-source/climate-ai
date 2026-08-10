@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: climateguard-backend
+    env: node
+    rootDir: climateguard-ai/backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 5000
